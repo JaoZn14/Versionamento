@@ -1,0 +1,46 @@
+algoritmo "TeladeBloqueio"
+
+
+
+var
+
+   senhaCorreta : caractere
+
+   senhaDigitada : caractere
+
+
+
+inicio
+
+
+
+   senhaCorreta <- "R%7756"
+
+
+
+   escreva("Digite a senha: ")
+
+   leia(senhaDigitada)
+
+
+
+   enquanto (senhaDigitada <> senhaCorreta) faca
+
+
+
+      escreval("Senha incorreta, acesso negado. Tente novamente:")
+
+      leia(senhaDigitada)
+
+
+
+   fimenquanto
+
+
+
+   escreval("Acesso liberado!")
+
+
+
+fimalgoritmo
+
